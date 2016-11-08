@@ -1,4 +1,4 @@
-class Players
+class Player
   attr_reader :name
   attr_accessor :points
 
@@ -6,5 +6,4 @@ class Players
     @points = 3
     @name = name
   end
-
 end
